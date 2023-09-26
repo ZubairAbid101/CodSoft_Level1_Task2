@@ -101,7 +101,7 @@ body {
   height: 100vh;
   background-color: rgb(151, 111, 111);
   font-family: "Mooli", sans-serif;
-  background: url("/images/background/background.svg");
+  background-image: url("../images/background/background.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
