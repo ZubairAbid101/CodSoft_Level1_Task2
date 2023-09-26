@@ -1,0 +1,27 @@
+@use "./container-styles";
+@use "./task-form-styles";
+@use "./task-list-styles";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+
+    background-color: rgb(151, 111, 111);
+
+    font-family: 'Mooli', sans-serif;
+
+    background: url("/images/background/background.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
